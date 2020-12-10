@@ -1,5 +1,5 @@
 # Open Data Hub Manifests
-A repository for [Open Data Hub](https://opendatahub.io) components Kustomize manifests
+A repository for [Open Data Hub](https://opendatahub.io) components Kustomize manifests.
 
 ## Community
 
