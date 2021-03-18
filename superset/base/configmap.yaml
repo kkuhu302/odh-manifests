@@ -23,3 +23,6 @@ data:
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     SECRET_KEY = os.getenv('SUPERSET_SECRET_KEY','thisISaSECRET_1234')
     DATA_DIR = '/var/lib/superset'
+    PUBLIC_ROLE_LIKE_GAMMA = True
+    SESSION_COOKIE_SAMESITE = None
+    WTF_CSRF_ENABLED = False
