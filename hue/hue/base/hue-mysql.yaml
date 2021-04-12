@@ -104,6 +104,7 @@ spec:
           securityContext:
             capabilities: {}
             privileged: false
+      serviceAccountName: hue
       volumes:
         - name: mysql
           persistentVolumeClaim:
