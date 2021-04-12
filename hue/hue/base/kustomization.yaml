@@ -13,6 +13,9 @@ resources:
   - hue-sample-s3-secret.yaml
   - hue-service.yaml
   - hue.yaml
+  - hue-serviceaccount.yaml
+  - hue-role.yaml
+  - hue-rolebinding.yaml
 
 commonLabels:
   opendatahub.io/component: "true"
