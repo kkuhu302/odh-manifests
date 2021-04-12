@@ -1,0 +1,14 @@
+apiVersion: authorization.openshift.io/v1
+kind: RoleBinding
+metadata:
+  labels:
+    app: hue
+  name: hue
+roleRef:
+  apiGroup: authorization.openshift.io
+  kind: Role
+  name: hue
+  namespace: $(namespace)
+subjects:
+- kind: ServiceAccount
+  name: hue
