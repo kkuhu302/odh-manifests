@@ -8,7 +8,7 @@ roleRef:
   apiGroup: authorization.openshift.io
   kind: Role
   name: hue
-  namespace: $(namespace)
+  namespace: test-datacatlog
 subjects:
 - kind: ServiceAccount
   name: hue
